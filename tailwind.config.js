@@ -9,9 +9,10 @@ export default {
   },
   plugins: [
     require('daisyui'),
-    daisyui: {
-      themes: ["light", "synthwave",],
-    },
+    
   ],
+  daisyui: {
+    themes: ["dim", "synthwave",],
+  },
 }
 
