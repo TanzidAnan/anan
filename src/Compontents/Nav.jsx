@@ -25,7 +25,7 @@ const Nav = () => {
                 <a className="btn btn-ghost gap-0 text-red-300  text-2xl">Byte<span className='text-purple-500'>Blaze</span></a>
             </div>
             <div className="flex-none">
-                <ul className="menu menu-horizontal px-1">
+                <ul className="menu menu-horizontal px-1 gap-4 mr-4">
                   <Link to='/' className='font-bold'><a>Home</a></Link>
                     <Link to='/blog' className='font-bold'><a>Bloge</a></Link>
                     <Link to='/bookMark' className='font-bold'><a>BookMark</a></Link>
