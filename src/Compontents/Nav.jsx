@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const Nav = () => {
     const [theme,setTheme] =useState('dim');
@@ -26,7 +26,7 @@ const Nav = () => {
             </div>
             <div className="flex-none">
                 <ul className="menu menu-horizontal px-1 gap-4 mr-4">
-                  <Link to='/' className='font-bold'><a>Home</a></Link>
+                  <NavLink to='/' className='font-bold'><a>Home</a></NavLink>
                     <Link to='/blog' className='font-bold'><a>Bloge</a></Link>
                     <Link to='/bookMark' className='font-bold'><a>BookMark</a></Link>
                 </ul>
