@@ -6,6 +6,7 @@ import { APIProvider } from '@vis.gl/react-google-maps'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from './Pages/Home.jsx'
 import Bloge from './Pages/Bloge.jsx'
+import BookMarks from './Pages/BookMarks.jsx'
 const router =createBrowserRouter([
   {
     path:'/',
@@ -16,7 +17,8 @@ const router =createBrowserRouter([
     element:<Bloge></Bloge>
   },
   {
-    
+    path:'/bookMark',
+    element:<BookMarks></BookMarks>
   }
 ])
 
