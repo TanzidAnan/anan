@@ -27,7 +27,7 @@ const Nav = () => {
             <div className="flex-none">
                 <ul className="menu menu-horizontal px-1 gap-4 mr-4">
                   <NavLink to='/' className='font-bold'><a>Home</a></NavLink>
-                    <Link to='/blog' className='font-bold'><a>Bloge</a></Link>
+                    <NavLink to='/blog' className='font-bold'><a>Bloge</a></NavLink>
                     <Link to='/bookMark' className='font-bold'><a>BookMark</a></Link>
                 </ul>
                 <label className="grid cursor-pointer place-items-center">
