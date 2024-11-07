@@ -7,19 +7,27 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from './Pages/Home.jsx'
 import Bloge from './Pages/Bloge.jsx'
 import BookMarks from './Pages/BookMarks.jsx'
+import MainLayout from './layouts/MainLayout.jsx'
 const router =createBrowserRouter([
   {
     path:'/',
-    element:<Home></Home>
-  },
-  {
-    path:'/blog',
-    element:<Bloge></Bloge>
-  },
-  {
-    path:'/bookMark',
-    element:<BookMarks></BookMarks>
+    element:<MainLayout></MainLayout>,
+    children:[
+      {
+        path:'/',
+        element:<Home></Home>
+      },
+      {
+        path:'/blog',
+        element:<Bloge></Bloge>
+      },
+      {
+        path:'/bookMark',
+        element:<BookMarks></BookMarks>
+      }
+    ]
   }
+  
 ])
 
 createRoot(document.getElementById('root')).render(
