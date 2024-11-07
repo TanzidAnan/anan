@@ -28,7 +28,7 @@ const Nav = () => {
                 <ul className="menu menu-horizontal px-1 gap-4 mr-4">
                   <NavLink to='/' className='font-bold'><a>Home</a></NavLink>
                     <NavLink to='/blog' className='font-bold'><a>Bloge</a></NavLink>
-                    <Link to='/bookMark' className='font-bold'><a>BookMark</a></Link>
+                    <NavLink to='/bookMark' className='font-bold'><a>BookMark</a></NavLink>
                 </ul>
                 <label className="grid cursor-pointer place-items-center">
                     <input
