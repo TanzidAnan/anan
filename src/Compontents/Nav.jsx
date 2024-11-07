@@ -28,7 +28,7 @@ const Nav = () => {
                 <ul className="menu menu-horizontal px-1">
                   <Link to='/' className='font-bold'><a>Home</a></Link>
                     <Link to='/blog' className='font-bold'><a>Bloge</a></Link>
-                    <Link to='/dashBord' className='font-bold'><a>BookMark</a></Link>
+                    <Link to='/bookMark' className='font-bold'><a>BookMark</a></Link>
                 </ul>
                 <label className="grid cursor-pointer place-items-center">
                     <input
