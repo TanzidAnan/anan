@@ -1,4 +1,4 @@
-import React from 'react';
+
 import Nav from '../Compontents/Nav';
 import { Outlet } from 'react-router-dom';
 
