@@ -1,5 +1,4 @@
 import Hero from "../Compontents/Hero";
-import Nav from "../Compontents/Nav";
 
 const Home = () => {
     return (
