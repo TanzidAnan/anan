@@ -26,7 +26,7 @@ const Nav = () => {
             </div>
             <div className="flex-none">
                 <ul className="menu menu-horizontal px-1 gap-4 mr-4">
-                  <NavLink to='/' className={({isActive}) =>isActive? 'bg-red-700 p-2 rounded-md':''}><a>Home</a></NavLink>
+                  <NavLink to='/' className={({isActive}) => isActive ? 'bg-red-700 p-2 rounded-md':'p-2'}><a>Home</a></NavLink>
                     <NavLink to='/blog' className={({isActive}) =>isActive? 'bg-red-700 p-2 rounded-md':''}><a>Bloge</a></NavLink>
                     <NavLink to='/bookMark' className={({isActive}) =>isActive? 'bg-red-700 p-2 rounded-md':''}><a>BookMark</a></NavLink>
                 </ul>
