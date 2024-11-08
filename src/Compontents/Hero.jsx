@@ -12,7 +12,7 @@ const Hero = () => {
       </p>
       <div className="gap-5 flex justify-center">
       <button className="btn btn-primary">Get Started</button>
-      <button className="btn btn-primary">Get Started</button>
+      <button className="btn bg-red-700">Get Started</button>
       </div>
     </div>
   </div>
