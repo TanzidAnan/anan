@@ -1,7 +1,6 @@
-import { StrictMode } from 'react'
+
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import { APIProvider } from '@vis.gl/react-google-maps'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from './Pages/Home.jsx'
 import Bloge from './Pages/Bloge.jsx'
@@ -30,9 +29,7 @@ const router =createBrowserRouter([
 ])
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <APIProvider>
-      <RouterProvider router={router}></RouterProvider>
-    </APIProvider>
-  </StrictMode>,
+  <React.StrictMode>
+  <RouterProvider router={router} />
+</React.StrictMode>,
 )
