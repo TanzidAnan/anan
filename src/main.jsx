@@ -6,6 +6,7 @@ import Home from './Pages/Home.jsx'
 import Bloge from './Pages/Bloge.jsx'
 import BookMarks from './Pages/BookMarks.jsx'
 import MainLayout from './layouts/MainLayout.jsx'
+import React from 'react'
 const router =createBrowserRouter([
   {
     path:'/',
