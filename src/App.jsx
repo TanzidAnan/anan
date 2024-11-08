@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-    <Home></Home>
+      <Home></Home>
       <Bloge></Bloge>
       <BookMarks></BookMarks>
     </>

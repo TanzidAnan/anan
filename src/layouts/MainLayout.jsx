@@ -9,7 +9,7 @@ const MainLayout = () => {
             <div className='h-16'>
             <Nav></Nav>
             </div>
-            <div>
+            <div className='min-h[]'>
             <Outlet></Outlet>
             </div>
             {/* <Footer></Footer> */}
