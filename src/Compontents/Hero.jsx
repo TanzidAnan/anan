@@ -10,8 +10,10 @@ const Hero = () => {
         Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
         quasi. In deleniti eaque aut repudiandae et a id nisi.
       </p>
+      <div className="gap-5 flex">
       <button className="btn btn-primary">Get Started</button>
       <button className="btn btn-primary">Get Started</button>
+      </div>
     </div>
   </div>
 </div>
