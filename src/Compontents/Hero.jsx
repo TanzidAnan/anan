@@ -12,7 +12,7 @@ const Hero = () => {
       </p>
       <div className="gap-5 flex justify-center">
       <button className="btn bg-slate-300 text-black">Get Started</button>
-      <button className="btn bg-red-700">Get Started</button>
+      <button className="btn bg-green-700">Get Started</button>
       </div>
     </div>
   </div>
