@@ -11,7 +11,7 @@ const Hero = () => {
         quasi. In deleniti eaque aut repudiandae et a id nisi.
       </p>
       <div className="gap-5 flex justify-center">
-      <button className="btn bg-slate-300 text-black">Get Started</button>
+      <button className="btn bg-red-200 text-black">Get Started</button>
       <button className="btn bg-green-700">Get Started</button>
       </div>
     </div>
