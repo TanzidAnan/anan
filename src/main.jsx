@@ -7,6 +7,7 @@ import Bloge from './Pages/Bloge.jsx'
 import BookMarks from './Pages/BookMarks.jsx'
 import MainLayout from './layouts/MainLayout.jsx'
 import React from 'react'
+import About from './Compontents/About/About.jsx'
 const router =createBrowserRouter([
   {
     path:'/',
@@ -26,7 +27,7 @@ const router =createBrowserRouter([
       },
       {
         path:'/about',
-        element:<
+        element:<About></About>
       }
     ]
   }
