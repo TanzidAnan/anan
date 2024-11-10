@@ -23,6 +23,10 @@ const router =createBrowserRouter([
       {
         path:'/bookMark',
         element:<BookMarks></BookMarks>
+      },
+      {
+        path:'/about',
+        element:<
       }
     ]
   }
